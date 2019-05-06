@@ -1,1 +1,1 @@
-# -display-modules
+# display-modules
