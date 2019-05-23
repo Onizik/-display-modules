@@ -1,0 +1,24 @@
+<circuit noLinAcc="5" speed="1000000" noLinStep="10" reactStep="50" animate="0" type="simulide_0.1">
+ 
+Ground-10: 
+<item labely="-24" valLabely="0" valLabRot="0" Show_id="false" rotation="0" valLabelx="0" objectName="Ground-10" id="Ground-10" y="-204" vflip="1" labelrot="0" x="-380" itemtype="Ground" labelx="-16" hflip="1"/>
+ 
+AudioOut-7: 
+<item labely="-24" valLabely="0" valLabRot="0" Show_id="false" rotation="-90" Impedance="8" valLabelx="0" objectName="AudioOut-7" id="AudioOut-7" y="-268" vflip="1" labelrot="0" x="-388" itemtype="AudioOut" labelx="-12" hflip="1"/>
+ 
+atmega328-5: 
+<item labelrot="0" y="-332" vflip="1" valLabely="0" valLabelx="0" labelx="0" labely="-20" Mhz="16" itemtype="AVR" Program="../../sketch_may23a.ino.hex" Ser_Port="false" rotation="0" Show_id="true" id="atmega328-5" x="-468" valLabRot="0" objectName="atmega328-5" hflip="1" Ser_Monitor="false"/>
+ 
+Connector-9: 
+<item endpinid="AudioOut-7-lPin" labelrot="0" startpinid="atmega328-5-PB1" y="-220" vflip="1" valLabely="0" valLabelx="0" labelx="-16" labely="-24" pointList="-428,-220,-396,-220,-396,-252" enodeid="enode-9" itemtype="Connector" rotation="0" Show_id="false" id="Connector-9" x="-428" valLabRot="0" objectName="Connector-9" hflip="1"/>
+ 
+Connector-11: 
+<item endpinid="Ground-10-Gnd" labelrot="0" startpinid="AudioOut-7-rPin" y="-252" vflip="1" valLabely="0" valLabelx="0" labelx="-16" labely="-24" pointList="-388,-252,-388,-220,-380,-220" enodeid="enode-11" itemtype="Connector" rotation="0" Show_id="false" id="Connector-11" x="-388" valLabRot="0" objectName="Connector-11" hflip="1"/>
+ 
+PlotterWidget: 
+<item windowTitle="" windowOpacity="1" enabled="true" maximumSize="" y="0" size="" acceptDrops="false" MinVolt="-500" geometry="" sizePolicy="" windowIcon="" x="0" inputMethodHints="0" toolTip="" baseSize="" childrenRegion="" cursor="" minimized="false" layoutDirection="0" statusTip="" minimumHeight="200" frameSize="" sizeHint="" focus="false" maximized="false" mouseTracking="false" focusPolicy="0" locale="" normalGeometry="" maximumWidth="1000" styleSheet="" pos="" windowModified="false" minimumWidth="200" MaxVolt="500" updatesEnabled="true" maximumHeight="200" isActiveWindow="true" minimumSizeHint="" minimumSize="" accessibleDescription="" autoFillBackground="false" palette="" rect="" toolTipDuration="-1" windowModality="0" objectName="PlotterWidget" height="200" modal="false" fullScreen="false" whatsThis="" windowIconText="" sizeIncrement="" visible="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" childrenRect="" windowFilePath="" itemtype="Plotter" width="200" frameGeometry="" contextMenuPolicy="1" accessibleName=""/>
+ 
+SerialPortWidget: 
+<item windowTitle="Настройки" windowOpacity="1" enabled="true" maximumSize="" y="0" size="" acceptDrops="false" geometry="" sizePolicy="" windowIcon="" x="0" inputMethodHints="0" toolTip="" baseSize="" childrenRegion="" cursor="" minimized="false" layoutDirection="0" statusTip="" minimumHeight="0" frameSize="" sizeHint="" focus="false" maximized="false" mouseTracking="false" focusPolicy="0" locale="" normalGeometry="" maximumWidth="450" styleSheet="" pos="" windowModified="false" SettingsProp="COM1,0,3,0,0,0" minimumWidth="0" updatesEnabled="true" maximumHeight="170" isActiveWindow="true" minimumSizeHint="" minimumSize="" accessibleDescription="" autoFillBackground="false" palette="" rect="" toolTipDuration="-1" windowModality="0" objectName="SerialPortWidget" height="141" modal="false" fullScreen="false" whatsThis="" windowIconText="" sizeIncrement="" visible="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" childrenRect="" windowFilePath="" itemtype="SerialPort" width="313" frameGeometry="" contextMenuPolicy="1" accessibleName=""/>
+ 
+</circuit>
